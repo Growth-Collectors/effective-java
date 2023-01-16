@@ -1,4 +1,4 @@
-# try-finally보다는 try-with-resources를 사용하라
+# [Item 9] try-finally보다는 try-with-resources를 사용하라
 ## (지양) try-finally 
 - 자원을 여러개 사용하게 된다면 코드가 지저분해진다 
 - ```
