@@ -9,44 +9,44 @@
     - 각 발표자는 3개의 아이템을 할당받아 정리 및 발표 수행
 - 화요일 8시마다 스터디 수행
 - 불참시 벌금 3000원 (보증금에서 차감)
-- 발표 일자에 불참 불가 
+- **발표 일자에 불참 불가** 
   - 필요시 다른 분과 발표 일정 변경해주세요
 
 ## 발표 및 토론
 - 발표자가 정리한 내용을 바탕으로 발표 수행
-- 아이템 별로 전체 스터디원이 참여하며 생각 공유 및 내용 정리
+- **아이템 별로 전체 스터디원이 참여하며 생각 공유 및 내용 정리**
     - 아이템 별로 전체 스터디원이 이슈에 기억에 남는 구절 등을 공유(필수입니다!)
     - 아이템별 이슈에서 자유롭게 소통해주셔도 좋아요!
     
 ## 2장. 객체 생성과 파괴
 | 아이템 | 발표자
 :---| :---:
-[아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라](items/item1.md) | [YunDaHyee](https://github.com/YunDaHyee)
-[아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라](items/item2.md) | [YunDaHyee](https://github.com/YunDaHyee)
-[아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라](items/item3.md) | [YunDaHyee](https://github.com/YunDaHyee)
-[아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라]() | [yeGenieee](https://github.com/yeGenieee)
-[아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라]() | [yeGenieee](https://github.com/yeGenieee)
-[아이템 6. 불필요한 객체 생성을 피하라]() | [yeGenieee](https://github.com/yeGenieee)
-[아이템 7. 다 쓴 객체 참조를 해제하라](items/item7.md) | [eternalklaus](https://github.com/eternalklaus)
-[아이템 8. finalizer와 cleaner 사용을 피하라](items/item8.md) | [eternalklaus](https://github.com/eternalklaus)
-[아이템 9. try-finally보다는 try-with-resources를 사용하라](items/item9.md) | [eternalklaus](https://github.com/eternalklaus)
+[아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라](chapter2/item1.md) | [YunDaHyee](https://github.com/YunDaHyee)
+[아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라](chapter2/item2.md) | [YunDaHyee](https://github.com/YunDaHyee)
+[아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라](chapter2/item3.md) | [YunDaHyee](https://github.com/YunDaHyee)
+[아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라](chapter2/item4.md) | [yeGenieee](https://github.com/yeGenieee)
+[아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](chapter2/item5.md) | [yeGenieee](https://github.com/yeGenieee)
+[아이템 6. 불필요한 객체 생성을 피하라](chapter2/item6.md) | [yeGenieee](https://github.com/yeGenieee)
+[아이템 7. 다 쓴 객체 참조를 해제하라](chapter2/item7.md) | [eternalklaus](https://github.com/eternalklaus)
+[아이템 8. finalizer와 cleaner 사용을 피하라](chapter2/item8.md) | [eternalklaus](https://github.com/eternalklaus)
+[아이템 9. try-finally보다는 try-with-resources를 사용하라](chapter2/item9.md) | [eternalklaus](https://github.com/eternalklaus)
 
 ## 3장. 모든 객체의 공통 메서드
 | 아이템 | 발표자
 :--- | :---:
-[아이템 10. equals는 일반 규약을 지켜 재정의하라](items/item10.md) | [juyeong-repo](https://github.com/juyeong-repo)
-[아이템 11. equals를 재정의하려거든 hashCode도 재정의하라](items/item11.md) | [juyeong-repo](https://github.com/juyeong-repo)
-[아이템 12. toString을 항상 재정의하라](items/item12.md) | [juyeong-repo](https://github.com/juyeong-repo)
-[아이템 13. clone 재정의는 주의해서 진행하라](items/item13.md) | [HanaHww2](https://github.com/HanaHww2)
-[아이템 14. Comparable을 구현할지 고려하라](items/item14.md) |[HanaHww2](https://github.com/HanaHww2)
+[아이템 10. equals는 일반 규약을 지켜 재정의하라](chapter3/item10.md) | [juyeong-repo](https://github.com/juyeong-repo)
+[아이템 11. equals를 재정의하려거든 hashCode도 재정의하라](chapter3/item11.md) | [juyeong-repo](https://github.com/juyeong-repo)
+[아이템 12. toString을 항상 재정의하라](chapter3/item12.md) | [juyeong-repo](https://github.com/juyeong-repo)
+[아이템 13. clone 재정의는 주의해서 진행하라](chapter3/item13.md) | [HanaHww2](https://github.com/HanaHww2)
+[아이템 14. Comparable을 구현할지 고려하라](chapter3/item14.md) |[HanaHww2](https://github.com/HanaHww2)
 
 ## 4장. 클래스와 인터페이스
 | 아이템 | 발표자
 :--- | :---:
-[아이템 15. 클래스와 멤버의 접근 권한을 최소화하라](items/item15.md) | [HanaHww2](https://github.com/HanaHww2)
-[아이템 16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](items/item16.md) | [jioome](https://github.com/jioome)
-[아이템 17. 변경 가능성을 최소화하라](items/item17.md) | [jioome](https://github.com/jioome)
-[아이템 18. 상속보다는 컴포지션을 사용하라](items/item18.md) | [jioome](https://github.com/jioome)
+[아이템 15. 클래스와 멤버의 접근 권한을 최소화하라](chapter4/item15.md) | [HanaHww2](https://github.com/HanaHww2)
+[아이템 16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](chapter4/item16.md) | [jioome](https://github.com/jioome)
+[아이템 17. 변경 가능성을 최소화하라](chapter4/item17.md) | [jioome](https://github.com/jioome)
+[아이템 18. 상속보다는 컴포지션을 사용하라](chapter4/item18.md) | [jioome](https://github.com/jioome)
 [아이템 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.]() | 
 [아이템 20. 추상 클래스보다는 인터페이스를 우선하라]() | 
 [아이템 21. 인터페이스는 구현하는 쪽을 생각해 설계하라]() | 
