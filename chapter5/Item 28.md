@@ -1,7 +1,6 @@
 # Item 28. 배열 대신 List를 사용하라
 ## Generic 요약
-### Generic 사용 이유: Fail Fast
-#### 배경
+### Generic 사용 배경
 애초에 왜 Generic이라는 개념이 나왔을까?
 
 Generic 이전에는 Object가 그 자리를 대체했었다.
@@ -22,6 +21,7 @@ Object로 모든 객체가 들어올 수 있기 때문에 get을 하는 경우 �
 #### Generic 사용 전: Runtime Error
  Generic을 사용하지 않은 List의 경우 디버깅이 어렵다.
  타입 매개변수를 정의하지 않는다면 Object 타입을 받게 된다
+ ```
 
    public class GenericBasic {
 
@@ -34,6 +34,8 @@ Object로 모든 객체가 들어올 수 있기 때문에 get을 하는 경우 �
         for (Object number: numbers) {
             System.out.println((Integer)number);
         }
+```
+
 String형을 Integer로 타입캐스팅할 수 없기 때문에 런타임에서 ClassCastException 에러가 난다
 
 
@@ -49,6 +51,8 @@ String형을 Integer로 타입캐스팅할 수 없기 때문에 런타임에서 
             System.out.println(number);
         }
     }
+    ```
+    
    타입 변수에 Integer를 썼기 때문에 문자열을 입력하는 순간부터 컴파일 에러가 발생한다.
    
 
