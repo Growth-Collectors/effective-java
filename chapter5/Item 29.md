@@ -80,7 +80,7 @@ Generic 매개변수 타입으로 배열을 만들 수는 없다!
 
 
 
-### 해결책 1. Object 배열 push ->Generic 배열로 캐스팅
+### 해결책 1. Object 배열 생성->Generic 배열로 캐스팅
 
 ```
 public class Stack<E> {
