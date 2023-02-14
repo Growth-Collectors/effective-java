@@ -1,6 +1,23 @@
 # Item 28. 배열 대신 List를 사용하라
 ## Generic 요약
 ### Generic 사용 이유: Fail Fast
+#### 배경
+애초에 왜 Generic이라는 개념이 나왔을까?
+
+Generic 이전에는 Object가 그 자리를 대체했었다.
+
+
+```
+class ObjectBox{
+	Object item;
+    void setItem(Object item){this.item = item; }
+    Object getItem() { return item; }
+}
+```
+
+크게 문제될 게 없어 보이지만 아니다.
+
+Object로 모든 객체가 들어올 수 있기 때문에 get을 하는 경우 늘 타입체크를 해줘야 했다.
 
 #### Generic 사용 전: Runtime Error
  Generic을 사용하지 않은 List의 경우 디버깅이 어렵다.
