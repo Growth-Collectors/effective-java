@@ -53,16 +53,16 @@
 [아이템 22. 인터페이스는 타입을 정의하는 용도로만 사용하라](chapter4/item22.md) | [HanaHww2](https://github.com/HanaHww2)
 [아이템 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라](chapter4/item23.md) | [HanaHww2](https://github.com/HanaHww2)
 [아이템 24. 멤버 클래스는 되도록 static으로 만들라](chapter4/item24.md) | [HanaHww2](https://github.com/HanaHww2)
-[아이템 25. 톱레벨 클래스는 한 파일에 하나만 담으라](chapter4/item25.md) | 
+[아이템 25. 톱레벨 클래스는 한 파일에 하나만 담으라](chapter4/item25.md) | [kimrumm](https://github.com/kimrumm) 
 
 ## 5장. 제네릭
 | 아이템 | 발표자
 :--- | :---:
-[아이템 26. 로 타입은 사용하지 말라](chapter5/item26.md) |
-[아이템 27. 비검사 경고를 제거하라](chapter5/item27.md) | 
-[아이템 28. 배열보다는 리스트를 사용하라](chapter5/item28.md) | 
-[아이템 29. 이왕이면 제네릭 타입으로 만들라](chapter5/item29.md) | 
-[아이템 30. 이왕이면 제네릭 메서드로 만들라](chapter5/item30.md) | 
+[아이템 26. 로 타입은 사용하지 말라](chapter5/item26.md) | [kimrumm](https://github.com/kimrumm)
+[아이템 27. 비검사 경고를 제거하라](chapter5/item27.md) | [kimrumm](https://github.com/kimrumm)
+[아이템 28. 배열보다는 리스트를 사용하라](chapter5/item28.md) | [Tldkt](https://github.com/Tldkt)
+[아이템 29. 이왕이면 제네릭 타입으로 만들라](chapter5/item29.md) | [Tldkt](https://github.com/Tldkt)
+[아이템 30. 이왕이면 제네릭 메서드로 만들라](chapter5/item30.md) | [Tldkt](https://github.com/Tldkt)
 [아이템 31. 한정적 와일드카드를 사용해 API 유연성을 높이라](chapter5/item31.md) | [HanaHww2](https://github.com/HanaHww2)
 [아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라](chapter5/item32.md) | [HanaHww2](https://github.com/HanaHww2)
 [아이템 33. 타입 안전 이종 컨테이너를 고려하라](chapter5/item33.md) | [HanaHww2](https://github.com/HanaHww2)
