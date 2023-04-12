@@ -1,7 +1,7 @@
 # 아이템 70. 복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라
 
 ### 자바 예외
-
+![image](https://user-images.githubusercontent.com/62924471/231423908-b04af36f-b2f7-45e9-915d-5a030059a1d4.png)
 - 출처) https://stackoverflow.com/questions/2699580/difference-between-unchecked-exception-or-runtime-exception
 
 - 언제 무엇을 사용해야 하는지 알아보자.
