@@ -128,26 +128,26 @@
 [아이템 73. 추상화 수준에 맞는 예외를 던지라](chapter10/item73.md) | [jioome](https://github.com/jioome)
 [아이템 74. 메서드가 던지는 모든 예외를 문서화하라](chapter10/item74.md) | [jioome](https://github.com/jioome)
 [아이템 75. 예외의 상세 메시지에 실패 관련 정보를 담으라](chapter10/item75.md) | [jioome](https://github.com/jioome)
-[아이템 76. 가능한 한 실패 원자적으로 만들라](chapter10/item76.md) |
-[아이템 77. 예외를 무시하지 말라](chapter10/item77.md) | 
+[아이템 76. 가능한 한 실패 원자적으로 만들라](chapter10/item76.md) | [YunDaHyee](https://github.com/YunDaHyee)
+[아이템 77. 예외를 무시하지 말라](chapter10/item77.md) | [YunDaHyee](https://github.com/YunDaHyee)
 
 ## 11장. 동시성
 | 아이템 | 발표자
 :--- | :---:
-[아이템 78. 공유 중인 가변 데이터는 동기화해 사용하라]() | 
-[아이템 79. 과도한 동기화는 피하라]() | 
-[아이템 80. 스레드보다는 실행자, 태스크, 스트림을 애용하라]() | 
-[아이템 81. wait와 notify보다는 동시성 유틸리티를 애용하라]() | 
-[아이템 82. 스레드 안전성 수준을 문서화하라]() | 
-[아이템 83. 지연 초기화는 신중히 사용하라]() | 
-[아이템 84. 프로그램의 동작을 스레드 스케줄러에 기대지 말라]() |
+[아이템 78. 공유 중인 가변 데이터는 동기화해 사용하라](chapter11/item78.md) | [YunDaHyee](https://github.com/YunDaHyee)
+[아이템 79. 과도한 동기화는 피하라](chapter11/item79.md) | [HanaHww2](https://github.com/HanaHww2)
+[아이템 80. 스레드보다는 실행자, 태스크, 스트림을 애용하라](chapter11/item80.md) | [HanaHww2](https://github.com/HanaHww2)
+[아이템 81. wait와 notify보다는 동시성 유틸리티를 애용하라](chapter11/item81.md) | [HanaHww2](https://github.com/HanaHww2)
+[아이템 82. 스레드 안전성 수준을 문서화하라](chapter11/item82.md) | [yeGenieee](https://github.com/yeGenieee)
+[아이템 83. 지연 초기화는 신중히 사용하라](chapter11/item83.md) | [yeGenieee](https://github.com/yeGenieee)
+[아이템 84. 프로그램의 동작을 스레드 스케줄러에 기대지 말라](chapter11/item84.md) | [yeGenieee](https://github.com/yeGenieee)
 
 ## 12장. 직렬화
 | 아이템 | 발표자
 :--- | :---:
-[아이템 85. 자바 직렬화의 대안을 찾으라]() | 
-[아이템 86. Serializable을 구현할지는 신중히 결정하라]() | 
-[아이템 87. 커스텀 직렬화 형태를 고려해보라]() | 
+[아이템 85. 자바 직렬화의 대안을 찾으라](chapter12/item85.md) | [eternalklaus](https://github.com/eternalklaus)
+[아이템 86. Serializable을 구현할지는 신중히 결정하라](chapter12/item86.md) | [eternalklaus](https://github.com/eternalklaus)
+[아이템 87. 커스텀 직렬화 형태를 고려해보라](chapter12/item87.md) | [eternalklaus](https://github.com/eternalklaus)
 [아이템 88. readObject 메서드는 방어적으로 작성하라]() | 
 [아이템 89. 인스턴스 수를 통제해야 한다면 readResolve보다는 열거 타입을 사용하라]() | 
 [아이템 90. 직렬화된 인스턴스 대신 직렬화 프록시 사용을 검토하라]() | 
